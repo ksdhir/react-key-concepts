@@ -1,5 +1,6 @@
 import '../styles/Activity41.css'
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const Activity41 = () => {
   const [addition, setAddition] = useState(0)
@@ -56,6 +57,9 @@ const Activity41 = () => {
 
   return (
     <div>
+      <div>
+        <Link to="/">Go to Home</Link>
+      </div>
       <h1>Activity 4.1</h1>
       <p>Building a Simple Calculator</p>
       <div className="complete-block">
