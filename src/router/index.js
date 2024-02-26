@@ -2,6 +2,7 @@
 import HomePage from '../pages/HomePage.jsx';
 import AboutPage from '../pages/AboutPage.jsx';
 
+
 import { createBrowserRouter } from 'react-router-dom';
 // configs
 const routes = [
