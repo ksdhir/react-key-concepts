@@ -1,0 +1,12 @@
+.complete-block {
+  margin: 0 auto;
+  width: 700px;
+}
+
+.sub-block {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
