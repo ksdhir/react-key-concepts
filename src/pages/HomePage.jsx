@@ -6,7 +6,14 @@ const HomePage = () => {
     <div>
       <h1>Home Page</h1>
       <p>This is the Home page</p>
-      <Link to="/about">Go to About</Link>
+      <div>
+        <Link to="/about">Go to About</Link>
+      </div>
+      <div>
+        <Link to="/activity-4-1">
+          Go to Activity 4.1: Building a Simple Calculator
+        </Link>
+      </div>
     </div>
   )
 }

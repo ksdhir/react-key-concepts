@@ -1,6 +1,7 @@
 // import pages react
 import HomePage from '../pages/HomePage.jsx';
 import AboutPage from '../pages/AboutPage.jsx';
+import Activity41 from '../pages/Activity41.jsx';
 
 
 import { createBrowserRouter } from 'react-router-dom';
@@ -16,6 +17,11 @@ const routes = [
     element: <AboutPage />,
     exact: true,
   },
+  {
+    path: '/activity-4-1',
+    element: <Activity41 />,
+    exact: true,
+  }
 ];
 
 const Router = createBrowserRouter(routes);
