@@ -1,0 +1,15 @@
+.complete-block {
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.form-block {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: left;
+  justify-content: left;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
