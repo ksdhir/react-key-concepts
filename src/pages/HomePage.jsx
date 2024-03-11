@@ -25,6 +25,11 @@ const HomePage = () => {
           Go to Activity 5.1: Showing a Conditional Error Message
         </Link>
       </div>
+      <div>
+        <Link to="/activity-5-2">
+          Go to Activity 5.2: Outputting a List of Products
+        </Link>
+      </div>
 
     </div>
   )
