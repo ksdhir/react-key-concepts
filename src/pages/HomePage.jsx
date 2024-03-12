@@ -30,6 +30,11 @@ const HomePage = () => {
           Go to Activity 5.2: Outputting a List of Products
         </Link>
       </div>
+      <div>
+        <Link to="/activity-7-1">
+          Go to Activity 7.1: Extract User Input Values
+        </Link>
+      </div>
 
     </div>
   )
