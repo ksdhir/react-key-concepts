@@ -6,6 +6,7 @@ import Activity42 from '../pages/Activity42.jsx';
 import Activity51 from '../pages/Activity51.jsx';
 import Activity52 from '../pages/Activity52.jsx';
 import Activity71 from '../pages/Activity71.jsx';
+import Activity72 from '../pages/Activity72.jsx';
 
 
 import { createBrowserRouter } from 'react-router-dom';
@@ -44,6 +45,11 @@ const routes = [
   {
     path: '/activity-7-1',
     element: <Activity71 />,
+    exact: true,
+  },
+  {
+    path: '/activity-7-2',
+    element: <Activity72 />,
     exact: true,
   }
 

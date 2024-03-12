@@ -35,6 +35,11 @@ const HomePage = () => {
           Go to Activity 7.1: Extract User Input Values
         </Link>
       </div>
+      <div>
+        <Link to="/activity-7-2">
+          Go to Activity 7.2: Add a Side-Drawer
+        </Link>
+      </div>
 
     </div>
   )

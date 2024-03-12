@@ -1,0 +1,43 @@
+body {
+  margin: 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.drawer-app {
+  background-color: burlywood;
+  display: flex;
+  justify-content: space-between;
+}
+
+.drawer-app h1 {
+  margin: 0;
+}
+
+.drawer-app button {
+  height: 100%;
+}
+
+button {
+  font: inherit;
+  padding: 0.25rem 1.5rem;
+  background-color: purple;
+  border: 1px solid purple;
+  color: white;
+  cursor: pointer;
+}
+
+.form-control {
+  margin-bottom: 0.5rem;
+}
+
+.form-control label,
+.form-control input,
+.form-control select {
+  display: block;
+  font: inherit;
+  margin-bottom: 0.5rem;
+}
