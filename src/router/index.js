@@ -1,15 +1,15 @@
 // import pages react
-import HomePage from '../pages/HomePage.jsx';
-import AboutPage from '../pages/AboutPage.jsx';
-import Activity41 from '../pages/Activity41.jsx';
-import Activity42 from '../pages/Activity42.jsx';
-import Activity51 from '../pages/Activity51.jsx';
-import Activity52 from '../pages/Activity52.jsx';
-import Activity71 from '../pages/Activity71.jsx';
-import Activity72 from '../pages/Activity72.jsx';
+import HomePage from '../pages/HomePage.jsx'
+import AboutPage from '../pages/AboutPage.jsx'
+import Activity41 from '../pages/Activity41.jsx'
+import Activity42 from '../pages/Activity42.jsx'
+import Activity51 from '../pages/Activity51.jsx'
+import Activity52 from '../pages/Activity52.jsx'
+import Activity71 from '../pages/Activity71.jsx'
+import Activity72 from '../pages/Activity72.jsx'
+import Chapter8 from '../pages/Chapter8.jsx'
 
-
-import { createBrowserRouter } from 'react-router-dom';
+import { createBrowserRouter } from 'react-router-dom'
 // configs
 const routes = [
   {
@@ -51,10 +51,14 @@ const routes = [
     path: '/activity-7-2',
     element: <Activity72 />,
     exact: true,
-  }
+  },
+  {
+    path: '/chapter-8',
+    element: <Chapter8 />,
+    exact: true,
+  },
+]
 
-];
+const Router = createBrowserRouter(routes)
 
-const Router = createBrowserRouter(routes);
-
-export default Router;
+export default Router

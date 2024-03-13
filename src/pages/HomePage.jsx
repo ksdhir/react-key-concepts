@@ -40,6 +40,11 @@ const HomePage = () => {
           Go to Activity 7.2: Add a Side-Drawer
         </Link>
       </div>
+      <div>
+        <Link to="/chapter-8">
+          Go to Chapter 8: Understanding Hooks
+        </Link>
+      </div>
 
     </div>
   )
