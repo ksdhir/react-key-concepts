@@ -36,16 +36,16 @@ const HomePage = () => {
         </Link>
       </div>
       <div>
-        <Link to="/activity-7-2">
-          Go to Activity 7.2: Add a Side-Drawer
-        </Link>
+        <Link to="/activity-7-2">Go to Activity 7.2: Add a Side-Drawer</Link>
       </div>
       <div>
-        <Link to="/chapter-8">
-          Go to Chapter 8: Understanding Hooks
+        <Link to="/chapter-8">Go to Chapter 8: Understanding Hooks</Link>
+      </div>
+      <div>
+        <Link to="/activity-8-1">
+          Go to Activity 8.1: Handling Side Effects
         </Link>
       </div>
-
     </div>
   )
 }
