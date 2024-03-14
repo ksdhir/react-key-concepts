@@ -42,7 +42,13 @@ const HomePage = () => {
         <Link to="/chapter-8">Go to Chapter 8: Understanding Hooks</Link>
       </div>
       <div>
-        <Link to="/activity-8-1">
+        <Link
+          to="/activity-8-1"
+          state={{
+            pageName: 'Activity 8.1',
+            description: 'Handling Side Effects',
+          }}
+        >
           Go to Activity 8.1: Handling Side Effects
         </Link>
       </div>
