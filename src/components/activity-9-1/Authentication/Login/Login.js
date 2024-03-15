@@ -1,20 +1,20 @@
-import { useState } from 'react';
+import { useState, lazy, Suspense } from 'react'
 
-import ResetPassword from './ResetPassword';
+const ResetPassword = lazy(() => import('./ResetPassword'))
 
 function Login() {
-  const [isResetting, setIsResetting] = useState();
+  const [isResetting, setIsResetting] = useState()
 
   function loginHandler(event) {
-    event.preventDefault();
+    event.preventDefault()
   }
 
   function startResetPasswordHandler() {
-    setIsResetting(true);
+    setIsResetting(true)
   }
 
   function finishResetPasswordHandler() {
-    setIsResetting(false);
+    setIsResetting(false)
   }
 
   return (
@@ -33,9 +33,11 @@ function Login() {
       <button className="alt-btn" onClick={startResetPasswordHandler}>
         Reset password
       </button>
-      {isResetting && <ResetPassword onFinish={finishResetPasswordHandler} />}
+      <Suspense fallback={<p>Loading...</p>}>
+        {isResetting && <ResetPassword onFinish={finishResetPasswordHandler} />}
+      </Suspense>
     </>
-  );
+  )
 }
 
-export default Login;
+export default Login
