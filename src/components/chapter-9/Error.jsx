@@ -18,6 +18,6 @@ function Error({ message }) {
   return <p className={classes.error}>{message}</p>
 }
 
-export default (Error)
+// export default (Error)
 
-// export default memo(Error)
+export default memo(Error)
