@@ -60,7 +60,7 @@ const HomePage = () => {
             description: 'React and Optimization: memo',
           }}
         >
-          Chapter 9: React and Optimization: memo
+          Go to Chapter 9: React and Optimization: memo
         </Link>
       </div>
     </div>

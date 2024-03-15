@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import Memo from '../components/chapter-9/Memo'
 import UseMemoHook from '../components/chapter-9/useMemoHook'
+import LazyLoading from '../components/chapter-9/LazyLoading'
 
 // import classes from "../styles/Chapter9.module.css"
 
@@ -37,6 +38,16 @@ const Chapter9 = () => {
               use Memo Hook Example
             </button>
             {example === 'useMemo' && <UseMemoHook />}
+          </div>
+          <div>
+            <button
+              onClick={() => {
+                setExample(() => 'lazyLoading')
+              }}
+            >
+              Lazy Loading & Suspense
+            </button>
+            {example === 'lazyLoading' && <LazyLoading />}
           </div>
         </section>
       </div>
