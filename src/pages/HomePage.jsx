@@ -52,6 +52,17 @@ const HomePage = () => {
           Go to Activity 8.1: Handling Side Effects
         </Link>
       </div>
+      <div>
+        <Link
+          to="/chapter-9"
+          state={{
+            pageName: 'Chapter 9',
+            description: 'React and Optimization: memo',
+          }}
+        >
+          Chapter 9: React and Optimization: memo
+        </Link>
+      </div>
     </div>
   )
 }
