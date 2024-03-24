@@ -74,6 +74,17 @@ const HomePage = () => {
           Go to Activity 9.1: Optimize an Existing App
         </Link>
       </div>
+      <div>
+        <Link
+          to="/activity-10-1"
+          state={{
+            pageName: 'Activity 10.1',
+            description: 'Migrating an App to Context API',
+          }}
+        >
+          Go to Activity 10.1: Migrating an App to Context API
+        </Link>
+      </div>
     </div>
   )
 }
