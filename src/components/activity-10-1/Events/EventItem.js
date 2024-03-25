@@ -1,12 +1,12 @@
-import classes from './EventItem.module.css';
+import classes from './EventItem.module.css'
 
 function EventItem({ event, isInCart, onAddToCart, onRemoveFromCart }) {
-  let buttonCaption = 'Add to Cart';
-  let buttonAction = onAddToCart;
+  let buttonCaption = 'Add to Cart'
+  let buttonAction = onAddToCart
 
   if (isInCart) {
-    buttonCaption = 'Remove from Cart';
-    buttonAction = onRemoveFromCart;
+    buttonCaption = 'Remove from Cart'
+    buttonAction = onRemoveFromCart
   }
 
   return (
@@ -21,7 +21,7 @@ function EventItem({ event, isInCart, onAddToCart, onRemoveFromCart }) {
         </div>
       </div>
     </li>
-  );
+  )
 }
 
-export default EventItem;
+export default EventItem

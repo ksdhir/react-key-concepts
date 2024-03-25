@@ -1,9 +1,15 @@
-import { useState } from 'react';
+import { useContext, useState } from 'react';
 
 import Cart from '../Cart/Cart';
 import classes from './MainHeader.module.css';
 
-function MainHeader({ cartItems }) {
+import CartItemsContext from '../../../store/CardItemsCtx';
+
+function MainHeader() {
+
+  const usingCardContext = useContext(CartItemsContext);
+  const cartItems = usingCardContext.cartItems;
+
   const [modalIsOpen, setModalIsOpen] = useState();
 
   function openCartModalHandler() {
