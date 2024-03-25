@@ -85,6 +85,17 @@ const HomePage = () => {
           Go to Activity 10.1: Migrating an App to Context API
         </Link>
       </div>
+      <div>
+        <Link
+          to="/activity-10-2"
+          state={{
+            pageName: 'Activity 10.2',
+            description: 'Replacing useState() from useReducer()',
+          }}
+        >
+          Go to Activity 10.2: Replacing useState() from useReducer()
+        </Link>
+      </div>
     </div>
   )
 }

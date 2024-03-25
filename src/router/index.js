@@ -12,6 +12,7 @@ import Activity81 from '../pages/Activity81.jsx'
 import Chapter9 from '../pages/Chapter9.jsx'
 import Activity91 from "../pages/Activity91.jsx"
 import Activity101 from '../pages/Activity101.jsx'
+import Activity102 from '../pages/Activity102.jsx'
 
 import { createBrowserRouter } from 'react-router-dom'
 // configs
@@ -78,6 +79,10 @@ const routes = [
   {
     path: '/activity-10-1',
     element: <Activity101 />,
+  },
+  {
+    path: '/activity-10-2',
+    element: <Activity102 />,
   }
 ]
 
