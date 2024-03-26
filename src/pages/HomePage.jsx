@@ -96,6 +96,17 @@ const HomePage = () => {
           Go to Activity 10.2: Replacing useState() from useReducer()
         </Link>
       </div>
+      <div>
+        <Link
+          to="/activity-11-1"
+          state={{
+            pageName: 'Activity 11.1',
+            description: 'Build a Custom Keyboard Input Hook',
+          }}
+        >
+          Go to Activity 11.1: Build a Custom Keyboard Input Hook
+        </Link>
+      </div>
     </div>
   )
 }
